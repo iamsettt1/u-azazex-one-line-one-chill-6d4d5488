@@ -3,11 +3,13 @@
 Writes a single sentence of horror (under 200 characters) to
 /output/entry.txt. The line is fixed text, composed once and stored
 here as a constant, so every run produces byte-identical output.
+The line: a hospice nurse keeps tucking in an empty bed that is
+warm again every morning — the unseen occupant returns each night.
 """
 
 import os
 
-LINE = "Every Sunday my mother calls from the number we disconnected the week she died."
+LINE = "The hospice nurse still tucks in the empty bed every morning, because every morning it is warm again."
 
 
 def main() -> None:
